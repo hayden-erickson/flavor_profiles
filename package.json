@@ -1,0 +1,16 @@
+{
+  "name": "flavor-profiles",
+  "version": "0.0.1",
+  "description": "Create dynamic flavor profiles based on recipe lookups that help humans better understand how to satisfy their taste receptors and intrigue their occipital lobes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hayden-erickson/flavor_profiles.git"
+  },
+  "author": "Hayden Erickson",
+  "keywords": [ "food", "fun", "taste", "knowledge" ],
+  "license": "ISC"
+}
