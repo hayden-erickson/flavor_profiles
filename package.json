@@ -11,6 +11,19 @@
     "url": "https://github.com/hayden-erickson/flavor_profiles.git"
   },
   "author": "Hayden Erickson",
-  "keywords": [ "food", "fun", "taste", "knowledge" ],
-  "license": "ISC"
+  "keywords": [
+    "food",
+    "fun",
+    "taste",
+    "knowledge"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "express": "^4.13.3",
+    "mongodb": "^2.1.4",
+    "mongoose": "^4.3.6",
+    "request": "^2.69.0",
+    "request-promise": "^2.0.0"
+  }
 }
