@@ -33,7 +33,8 @@ function getIngredients( htmlBody ) {
 
 function getRecipeLinks( htmlBody ) {
   var $ = cheerio.load(htmlBody);
-  var articles = $('article > a');
+  var articles = $('article > a:nth-child(2)');
+  articles += $('article > a:first-child');
   var recipeLinks = [];
 
   $(articles).each( function(i, article) {
